@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body{
+	background: #1f1f1f;;
+}
+#header{
+	border-radius:0px 0px 15px 15px;
+	-moz-border-radius:0px 0px 15px 15px;
+	-webkit-border-radius:0px 0px 15px 15px;
+	-webkit-box-shadow:0px 0px 100px 11px #195c24 ;
+	-moz-box-shadow:0px 0px 100px 11px #195c24 ;
+	box-shadow:0px 0px 100px 11px #195c24 ;
+	background-color: #A6000000
+}
+#mid{
+}
+#footer{
+	border-radius:15px 15px 0px 0px ;
+	-moz-border-radius:15px 15px 0px 0px;	
+	-webkit-box-shadow:0px 0px 100px 11px #195c24 ;
+	-moz-box-shadow:0px 0px 100px 11px #195c24 ;
+	box-shadow:0px 0px 100px 11px #195c24 ;
+}
+#footer-text{
+	color:#8f8f8f;
+    font-size: 10px;
+}
+#form{
+	font-family: "Lucida Console", Monaco, monospace;
+	border-radius:15px 15px 15px 15px;
+	-moz-border-radius:15px 15px 15px 15px;
+	-webkit-border-radius:15px 15px 15px 15px;
+	-webkit-box-shadow:0px 0px 100px 11px #195c24 ;
+	-moz-box-shadow:0px 0px 100px 11px #195c24 ;
+	box-shadow:0px 0px 100px 11px #195c24 ;
+	background-color: #A6000000;
+	margin-top: 230px;
+    padding: 15px;
+}
+#input{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 15px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #195C24;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	margin: 10px;
+}
+#label{
+	margin:5px;
+}
+.inputUser{
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color: #A6000000;
+	color: #195C24;	
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #00b01a;
+    border-width: 0px;
+    box-shadow: -1px 0px 5px 0px rgb(6 163 30 / 39%);
+}
+.inputPassword{
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color: #A6000000;
+	color: #195C24;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #00b01a;
+    border-width: 0px;
+    box-shadow: -1px 0px 5px 0px rgb(6 163 30 / 39%);
+}
+#btn{
+	background-color: #A6000000;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color: #195C24;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size:15px;
+	padding:9px 25px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

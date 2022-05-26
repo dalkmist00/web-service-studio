@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Access</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/structure.css" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar navbar-expand navbar-dark" id="header">
+		<div class="container-fluid">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="#">Logo</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active" href="/">Login</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="/registration">Registration</a>
+				</li>
+			</ul>
+        </div>
+		 </div>
+	
+	<div class="d-flex justify-content-center align-self-center" id="mid">
+	
+		<div class="d-flex justify-content-center align-self-center" id="form">
+			<form action="/login/attempt" method="post">
+				<div class="d-flex justify-content-center align-self-center form-group" id="input">
+					<label for="inputUser" id="label">Username</label>
+					<input type="text" name="username" class="inputUser"/>
+			    </div>
+			    <div class="d-flex justify-content-center align-self-center" id="input">
+			    	<label for="inputPassword" id="label">Password</label>
+			    	<input type="password" name="password" class="inputPassword"/>
+			    </div>
+			    <div class="d-flex justify-content-center align-self-center" id="button">
+			    	<input type="submit" value="Login" id="btn"/>
+			    </div>
+			</form>
+		</div>
+	</div>
+	
+	<div class="fixed-bottom" id="footer">
+		<div class="d-flex justify-content-center align-self-center" id="footer-text"><p>Written by Dalkmist<p></div>
+	</div>
+
+</body>
+</html>
